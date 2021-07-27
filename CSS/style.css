@@ -1,0 +1,23 @@
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+#gen {
+    max-width:500px;
+    background:#eee8d5;
+    padding:20px;
+    border-radius:.25rem;
+}
+#count{
+    font-size: 3rem;
+}
+#resetbtn,#addbtn,#subbt {
+    font-size:2rem;
+}
+@media screen and (max-width: 480px) {
+   #gen{
+       font-size:2rem;
+       width: 90%;
+       display: flexbox;
+    }
+}
